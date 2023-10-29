@@ -1,0 +1,21 @@
+@import url(./fonts.css);
+@import url(./key.css);
+
+body {
+  background-color: rgb(20, 20, 20);
+}
+* {
+  color: white;
+}
+
+h1 {
+
+}
+
+
+
+#h1-table {
+  border: 1px solid rgba(196, 196, 196, 0.218);
+
+  
+}
