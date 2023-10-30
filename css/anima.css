@@ -1,25 +1,9 @@
 
-:root {
-  --color-h1-8: rgba(220,66,66,.8),;
-  --color-h1-5: rgba(220,66,66,.5),;
-}
 
 /* $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955); */
 
 
-body {
-    background:#111;
-    /* font-family: 'Sans Serif', 'Dosis', Helvetica, Arial, sans-serif; */
-  font-weight:600; 
-}
-
-
 h1 {
-  font-family: sans-serif;
-  text-transform:uppercase;
-  color:white;
-  font-size:6em;
-  text-align:center;
   animation: neonGlow 2s infinite alternate;
   /* $easeInOutQuad; */
 }

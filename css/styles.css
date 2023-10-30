@@ -1,21 +1,66 @@
-@import url(./fonts.css);
-@import url(./key.css);
+@import url(./sec.css);
+@import url(./anima.css);
 
-body {
-  background-color: rgb(20, 20, 20);
+/* ---------- VARIABLES --------- */
+:root {
+  --color-h1-8:
+  --color-h1-5:
 }
+
+/* ---------- HERRAMIENTAS VISUALIZACIÓN ---------------- */
+
 * {
-  color: white;
+  /* border: 0.5px solid white; */
+}
+header, header *{
+  /* border: 0.5px solid white; */
+
 }
 
-h1 {
 
+/* ------------------- GENERAL  ------------------------------------*/
+
+
+
+/* ------------------- HEADER  ------------------------------------*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 80vh;
+  width: 100vw;
+}
+
+#pulsa-cualquier-boton {
+  margin-top: 50px;
 }
 
 
+.inactive {
+  display: none;
+}
 
-#h1-table {
-  border: 1px solid rgba(196, 196, 196, 0.218);
+#profile-section, #student-access, #sign-up-screen {
+  display: none;
+}
 
-  
+
+/* ------------------- FOOTER  ------------------------------------*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+  margin:15px;
+  bottom: 0;
+  width: 100vw;
+}
+
+#social-media-hector {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
 }
